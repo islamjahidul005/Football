@@ -1,0 +1,349 @@
+/* ********************* Css font link ************************* */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* **************** headar style ********************** */
+.header-section {
+background: #2D25A0;
+width: 100%;
+color: white;
+}
+/* **************** Menu Bar style ******************* */
+.top-menu-bar {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+     padding:42px 120px 0px 56px;                                   ;
+}
+.top-menu-bar>span>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 36px;
+   }
+.login {
+    background-color:#E02C6D;
+    border: 1px solid #E02C6D;
+    width: 140px;
+    height: 35px;
+    padding-top: 10px;
+   }
+.bar {
+    background-color:#E02C6D;
+    border: 1px solid #E02C6D;
+    width: 45px;
+    height: 35px;
+    padding: 10px 40px 0 0;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}
+
+
+/* ****************** Flex Style Area ********************* */
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding:40px 140px 86px 156px;
+}
+
+/* ***************** Flex-1 Style Area ********************** */ 
+.heading-1 {
+   
+     font-size: 64px;
+    font-weight: bold;
+    margin: 20px;
+}
+.paragraph-1 {
+    border: 1px solid #E02C6D;
+    width: 168px;
+    height: 30px;
+    padding-top: 7px;
+   text-align: center;
+   font-weight: 700;
+   background-color: #E02C6D;
+}
+.paragraph-1>a{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}  
+
+.text-color {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  border: 1px solid #E02C6D;
+    background-color: #E02C6D;
+   width: 170px;
+   padding:5px 10px;
+   text-align: center;
+}
+
+
+/* ************** Flex-2 style Area ********************** */
+ .flex-2, img {
+    width: 556px;
+    height: 438px;
+    padding-top: 10px;
+}
+/* ************** Hover Area ****************** */
+
+  .hover:hover {
+    color: rgba(128, 128, 128, 0.541);
+ }   
+
+.login:hover {
+    transform: scale(1.2);
+    transition: linear 1s;
+    background-color: #e02c6e00;
+    border-radius: 15px;
+}
+.paragraph-1:hover  {
+    transform: scale(1.2);
+    transition: linear 1s;
+    background-color: #e02c6e00;
+    border-radius: 15px;
+}
+
+.flex-2:hover img {
+    transform: scale(1.2);
+    transition: linear 1s;
+}
+.text-color:hover {
+    transform: scale(1.2);
+    transition: linear 0.5s;
+    color: #E02C6D;
+    background-color: #e02c6e00;
+    border-radius: 15px;
+    
+}
+.fab:hover {
+    color: #E02C6D;
+    transform: scale(1.2);
+    transition: 0.2s linear;
+}
+.bar:hover {
+    transform: scale(1.2);
+    transition: linear 1s;
+    background-color: #e02c6e00;
+    border-radius: 15px;
+}
+/* ***************** Hover Area ************************ */
+
+
+/* ***************** blogs style area *********************** */
+
+.player-img {
+    width: 300px;
+    height: 256px;
+}
+.blogs-header {
+    width: 310px;
+    height: 474px;
+    padding: 15px 15px 15px 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+article {
+    margin: 70px 0px 0px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+   
+}
+/* second blogs style area  */
+.img-blog img {
+    width: 567px;
+height: 427px;
+}
+.second-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px 150px 50px 180px;
+}
+.text-blog {
+    width: 469px;
+height: 309px;
+margin-top: 50px;
+}
+/* news style area  */
+.news {
+    background-color: rgba(222, 184, 135, 0.507);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+.reports {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.report {
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgba(222, 184, 135, 0.555);
+    background-color: rgba(222, 184, 135, 0.555);
+    padding: 15px;
+    margin:20px 0;
+    box-shadow: 0 0 40px rgba(128, 128, 128, 0.562)
+}
+.messi>img {
+    width: 500px;
+    height: 450px;
+    padding-top: 50px;
+}
+/* ******************** Shoping ***************8**** */
+.shoping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boots {
+    display: flex;
+    
+} 
+
+.boot-area>img {
+     width: 350px;
+     height: 300px;
+ }   
+ .boot-area {
+     
+     padding: 20px;
+     margin: 30px;
+     box-shadow: 0 0 40px rgba(128, 128, 128, 0.363);
+ }
+/* *************************** Footer ************************** */
+.footer {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-size:20px;
+   padding: 0px;
+}
+.footer>p>img {
+    height: 120px;
+    width: 480px;
+}
+.fab {
+    color: #969BAB;
+    margin-left: 10px;
+}
+/* ********************* Media Query ************************ */
+/* ********************** For Mobile ******************************* */
+ @media only screen and (max-width:688px) {
+     /* ****************** Header-Section query ********************* */
+    .header-section {
+        width: 100%;
+    }
+    .bar, .login {
+        display: flex;
+        float:left;
+        justify-content: space-between;
+    }
+    span {
+        display: none;
+    }
+.flex  {
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+  }
+
+/* ******************** Blogs query******************** */
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+   align-items: center;
+   margin: 0;
+}
+/* ********************** Second Blogs ********************** */
+.second-blogs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+} 
+/* ********************* News reports query ******************* */
+.news {
+    width: 100%;
+}
+.reports {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ****************** Shopping Query ******************* */
+.shoping {
+    width: 100%;
+    justify-content: center;
+}
+.boots {
+    display: flex;
+    flex-direction: column;
+}
+}
+/* ************** Query FOr Tablet ******************** */
+@media only screen and (min-width:688px) and (max-width:1150px) {
+    /* ****************** Header-Section query ********************* */
+    .header-section {
+       width: 100%;
+   }
+   span {
+       display: none;
+   }
+
+.bar, .login  {
+    display: flex;
+    float:left;
+}
+ .flex  {
+     display: flex;
+    flex: direction 2;
+ }
+/* ******************** Blogs query******************** */
+article {
+    width: 100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin-left: 50px;
+    justify-content:space-around;
+}
+/* ********************** Second Blogs ********************** */
+.second-blogs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+} 
+/* ********************* News reports query ******************* */
+.news {
+    width: 100%;
+}
+.reports {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ****************** Shopping Query ******************* */
+.shoping {
+    width: 100%;
+    
+}
+.boots {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
